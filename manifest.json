@@ -1,0 +1,19 @@
+{
+
+  "description": "Removes Whatsapp Web status button",
+  "manifest_version": 2,
+  "name": "Whatsapp Status Remover",
+  "version": "1.0",
+  "homepage_url": "https://github.com/guidiasz/Whatsapp-Web-Status-Remover",
+  "icons": {
+    "48": "icons/icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://web.whatsapp.com/*"],
+      "js": ["statusRemover.js"]
+    }
+  ]
+
+}

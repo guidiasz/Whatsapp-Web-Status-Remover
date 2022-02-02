@@ -1,0 +1,1 @@
+document.querySelector('._3yZPA > div:nth-child(1) > span:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)').style.display = 'none';
