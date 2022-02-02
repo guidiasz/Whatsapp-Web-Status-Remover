@@ -1,1 +1,9 @@
-document.querySelector('._3yZPA > div:nth-child(1) > span:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)').style.display = 'none';
+let statusButton = document.querySelector('._26lC3 > span:nth-child(1)');
+
+const timer = setInterval(function() {
+    if (statusButton) {
+        document.querySelector('._26lC3 > span:nth-child(1)').style.display = 'none';
+        clearInterval(timer);
+    }
+    statusButton = document.querySelector('._26lC3 > span:nth-child(1)');
+ }, 500);
